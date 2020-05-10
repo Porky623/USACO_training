@@ -1,0 +1,44 @@
+Test:
+How to use BufferedReader, StringTokenizer, PrintWriter, and USACO training format
+Gift1:
+Tokenizing multiple lines, lots of bash
+Ride:
+Easy bash
+Beads:
+More bash
+Friday:
+Even more bash
+Milk2:
+Sorting arrays with new comparator, bash
+Transform:
+Nested methods
+Namenum1:
+Using longs for greater than 2147483647, recursively creating strings, HashMap for searching large arrays (but too slow)
+Namenum:
+Smarter strategy: looks in dictionary and compares to number rather than creating numbers and searching for each of them (way faster)
+Palsquare:
+When working with palindromes, keep it as a string instead of converting to int
+Dualpal:
+Bash
+Milk:
+Greedy algorithm: take as many from cheapest then get more and more expensive
+Barn1:
+Greedy algorithm on what you don't want
+Crypt1:
+Bash
+Combo:
+Array of every possible combo, check them off if they work
+Wormhole:
+Pair them up, checking every combination recursively. Check if a chain exists by checking if the one to the right of its partner is ever nothing. Indices start with one for it to work.
+Skidesign:
+Greedy algorithm doesn't work. Iterate through, checking every possible amount of reduction and finding the minimum cost.
+Ariprog:
+Creation of new comparators. Mainly question of efficiency. Iterate through, stopping your check every time you find a term that's not a bisquare.
+Milk3:
+Recursively bash your way through every possible situation of milk amounts.
+Numtri:
+Go from bottom to top, greedily taking the maximum sum below it to add to it all the way to the top.
+Pprime:
+Efficient prime checker. Iteratively make every palindrome in the range, then check if it's prime (instead of checking prime and palindrome for every number in range)
+Sprime:
+Copied code from Permutations and Pprime for superprime construction and prime checking, respectively. Trivialized.
